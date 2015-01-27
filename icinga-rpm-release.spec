@@ -1,3 +1,6 @@
+# workaround for http://stackoverflow.com/questions/1879734/rpm-build-error
+%define debug_package %{nil}
+
 Name:		icinga-rpm-release
 Version:	5
 Release:	1%{?dist}
