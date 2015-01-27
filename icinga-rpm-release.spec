@@ -1,5 +1,5 @@
 Name:		icinga-rpm-release
-Version:	7
+Version:	20
 Release:	1%{?dist}
 Summary:	Icinga Package Repository
 
@@ -8,12 +8,12 @@ License:	GPLv2
 URL:		http://packages.icinga.org/epel/
 Source0:	%{name}-%{version}.tar.gz
 Source1:	http://packages.icinga.org/icinga.key
-Source2:	http://packages.icinga.org/epel/ICINGA-release.repo
-Source3:	http://packages.icinga.org/epel/ICINGA-snapshot.repo
+Source2:	http://packages.icinga.org/fedora/ICINGA-release.repo
+Source3:	http://packages.icinga.org/fedora/ICINGA-snapshot.repo
 
 BuildArch:	noarch
 
-Requires:	redhat-release >=  %{version}
+Requires:	fedora-release >=  %{version}
 
 %description
 This package contains the Icinga package repository GPG key
