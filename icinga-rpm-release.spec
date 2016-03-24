@@ -7,9 +7,9 @@ Group:		System Environment/Base
 License:	GPLv2
 URL:		http://packages.icinga.org/epel/
 Source0:	%{name}-%{version}.tar.gz
-Source1:	http://packages.icinga.org/icinga.key
-Source2:	http://packages.icinga.org/epel/ICINGA-release.repo
-Source3:	http://packages.icinga.org/epel/ICINGA-snapshot.repo
+Source1:	icinga.key
+Source2:	ICINGA-release.repo
+Source3:	ICINGA-snapshot.repo
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
