@@ -3,5 +3,5 @@ name=ICINGA (snapshot builds for epel)
 baseurl=http://packages.icinga.org/epel/$releasever/snapshot/
 enabled=0
 gpgcheck=1
-gpgkey=http://packages.icinga.org/icinga.key
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ICINGA
 metadata_expire=1d
