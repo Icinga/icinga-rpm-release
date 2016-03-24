@@ -1,6 +1,6 @@
 [icinga-stable-release]
-name=ICINGA (stable release for epel)
-baseurl=http://packages.icinga.org/epel/$releasever/release/
+name=ICINGA (stable release for fedora)
+baseurl=http://packages.icinga.org/fedora/$releasever/release/
 enabled=1
 gpgcheck=1
 gpgkey=http://packages.icinga.org/icinga.key
