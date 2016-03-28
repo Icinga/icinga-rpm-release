@@ -1,5 +1,5 @@
 [icinga-snapshot-builds]
-name=ICINGA (snapshot builds for epel)
+name=ICINGA (snapshot builds for RHEL/CentOS (epel))
 baseurl=http://packages.icinga.org/epel/$releasever/snapshot/
 enabled=0
 gpgcheck=1

@@ -1,0 +1,7 @@
+[icinga-snapshot-builds]
+name=ICINGA (snapshot builds for fedora)
+baseurl=http://packages.icinga.org/fedora/$releasever/snapshot/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ICINGA
+metadata_expire=1d
