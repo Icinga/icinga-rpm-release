@@ -1,5 +1,5 @@
 Name:		icinga-rpm-release
-Version:	23
+Version:	24
 Release:	1%{?dist}
 Summary:	Icinga Package Repository
 
