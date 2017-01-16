@@ -1,11 +1,11 @@
 Name:		icinga-rpm-release
 Version:	6
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Icinga Package Repository
 
 Group:		System Environment/Base
 License:	GPLv2
-URL:		http://packages.icinga.org/epel/
+URL:		http://packages.icinga.com/epel/
 Source0:	%{name}-%{version}.tar.gz
 Source1:	icinga.key
 Source2:	ICINGA-release.repo
